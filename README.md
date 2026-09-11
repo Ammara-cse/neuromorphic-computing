@@ -1,77 +1,35 @@
+# Neuromorphic Computing: Hardware Inspired by the Human Brain 🧠⚡
 
-# Neuromorphic Computing: Hardware Inspired by the Human Brain
-
-This repository contains the complete **LaTeX source code** for the seminar report and Beamer presentation on **Neuromorphic Computing**, submitted for the Department of Computer Engineering at **Dr. Babasaheb Ambedkar Technological University (BATU)**.
-
----
-
-## 📁 Repository Structure
-
-* `main.tex` — Full Seminar Report LaTeX source code.
-* `presentation.tex` — Beamer Slideshow LaTeX source code.
-* `references.bib` — Bibliography dataset for references.
-* `BATU_logo.png` — University logo image.
-* `*.png` / `*.jpg` — Architectural diagrams and chip visual assets.
+This repository contains the official **Seminar Report (PDF)** and **Presentation Slides (PDF)** on **Neuromorphic Computing**, submitted for the Department of Computer Engineering at **Dr. Babasaheb Ambedkar Technological University (BATU)**.
 
 ---
 
-## 🛠️ Prerequisites & Setup
+## 📁 Repository Files
 
-To compile the LaTeX files locally, ensure you have the following installed:
-
-* **LaTeX Distribution**: TeX Live, MiKTeX, or MacTeX
-* **LaTeX Engine**: `pdfLaTeX`
-* **Bibliography Tool**: `biber`
-
-> **Note:** You can also upload these files directly to [Overleaf](https://www.overleaf.com) and set the compiler to `pdfLaTeX`.
+* 📘 **`Report.pdf`** — Full Seminar Report detailing brain-inspired architecture, hardware innovations, software frameworks, and applications.
+* 📙 **`Presentation.pdf`** — Official Beamer presentation slides used for the seminar defense.
 
 ---
 
-## 🚀 How to Compile
+## 📌 Abstract & Overview
 
-### 1. Seminar Report (`main.tex`)
-Run the following commands in your terminal:
+Neuromorphic computing is an emerging approach to computer engineering that designs hardware and software to mimic the structure and functionality of the human brain. By moving beyond traditional von Neumann architectures and integrating processing with memory, these systems enable highly parallel, ultra-low-power, and real-time processing.
 
-```bash
-pdflatex main.tex
-biber main
-pdflatex main.tex
-pdflatex main.tex
-
-```
-
-### 2. Beamer Presentation (`presentation.tex`)
-
-Run:
-
-```bash
-pdflatex presentation.tex
-pdflatex presentation.tex
-
-```
+### Key Topics Covered
+* **Core Technical Foundations**: Spiking Neural Networks (SNNs) and Spike-Timing-Dependent Plasticity (STDP).
+* **Brain-Inspired Architecture**: In-memory computing vs. traditional von Neumann bottleneck.
+* **Hardware Innovations**: Memristors and leading chips like **Intel Loihi 2**, **IBM TrueNorth**, and **BrainChip Akida**.
+* **Software & Frameworks**: Programming models including the open-source **Intel Lava** framework.
+* **Applications**: Edge AI, Autonomous Robotics, Healthcare (BCI/Prosthetics), and Smart Surveillance.
 
 ---
 
-## 📌 Project Overview
-
-* **Topic**: Neuromorphic Computing (Brain-inspired hardware architecture)
-* **Key Topics Covered**:
-* Spiking Neural Networks (SNNs) & Synaptic Plasticity
-* Memristors & In-Memory Computing
-* Hardware Implementations (Intel Loihi, IBM TrueNorth, BrainChip Akida)
-* Software Frameworks (Intel Lava)
-* Edge AI Applications & Future Scope
-
-
-
----
-
-## 👤 Author & Details
+## 👤 Author & Academic Details
 
 * **Author**: Ammara Fairoz Sirkhot
 * **PRN**: 24030332905059
 * **Branch**: Integrated Computer Science and Engineering
-* **University**: Dr. Babasaheb Ambedkar Technological University, Lonere
+* **Class**: Second Year / Third Semester
+* **University**: Dr. Babasaheb Ambedkar Technological University (BATU), Lonere
 * **Guide**: Prof. Uzma Munde
 * **Academic Year**: 2025–2026
-
